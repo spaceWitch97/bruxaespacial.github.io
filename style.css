@@ -1,0 +1,66 @@
+body{
+    background-size: cover;
+    background-image: url("/images/background.jpg");
+    color: rgb(202, 202, 202);
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    
+    width: 100%;
+    margin: 0%;
+}
+
+article{
+    width: 75%;    
+    height: 70%;
+    text-align: center;
+    background-color: rgba(34, 33, 33, 0.655);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+nav{
+    width: 20%;
+    float: right;
+    background-color: rgba(34, 33, 33, 0.655);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+nav:hover{
+    zoom: 120%;
+}
+
+li a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: rgb(172, 166, 172);
+}
+
+li a:hover{
+    color: blueviolet;
+}
+
+h1, h2{
+    color: rgb(118, 29, 200);
+} 
+
+/*
+nav ul li { 
+    display: inline; 
+}*/
+
+.logo{
+    width: 20%;
+}
+
+.nome{
+    font-size: 42px;
+}
+
+footer{
+    margin: 0;
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.882);
+}
