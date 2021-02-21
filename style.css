@@ -27,9 +27,8 @@ body{
 }
 
 .menu{
-    width: 100%;
-    height: 40%;
-    background-color:turquoise;
+    position: fixed; 
+    margin:auto;
 }
 
 header nav ul li {
@@ -39,7 +38,6 @@ header nav ul li {
 .logo{
     width: 30%;
     float: left;
-    background-color: rgb(118, 29, 200);
 }
 
 .logo a{
@@ -48,14 +46,13 @@ header nav ul li {
 }
 
 nav{
-    background-color: violet;
     width: 60%;
-    float: right;  
+    height: 20%;
+    float: right; 
 }
 
 li a{
     text-decoration: none;
-    color: rgb(172, 166, 172);
 
 }
 
@@ -72,6 +69,7 @@ h1, h2{
 }
 
 article{
+    margin: auto;
     width: 90%;    
     height: 70%;
     align-items: center;
@@ -82,7 +80,7 @@ article{
 }
 
 footer{
+    text-align: center;
     margin: 0;
     padding: 1px;
-    background-color: rgba(0, 0, 0, 0.882);
 }
